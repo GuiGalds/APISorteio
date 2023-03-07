@@ -1,0 +1,5 @@
+Olá Thiago, primeiramente peço perdão pelo atraso, tive sim algumas dificuldades, mas não resolvi procurar ajuda pois
+isso foi mais que um teste, foi também um desafio para mim, sendo sincero, trabalho com C#, porém não me lembro de fazer
+uma API, mesmo que eu não passe neste teste, agradeço pois foi uma grande oportunidade desenvolver o mesmo e devo levar
+esse conhecimento que adquiri nesse teste para frente.
+obrigado!
