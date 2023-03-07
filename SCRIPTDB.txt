@@ -1,0 +1,16 @@
+-- cria a tabela Cliente
+CREATE TABLE Cliente (
+    Id INT PRIMARY KEY IDENTITY(1,1),
+    Nome VARCHAR(50) NOT NULL,
+    Telefone VARCHAR(20) NOT NULL,
+    CPF VARCHAR(11) NOT NULL,
+    Email VARCHAR(50) NOT NULL UNIQUE
+);
+
+-- cria a tabela NumeroSorteio
+CREATE TABLE NumeroSorteio (
+    Id INT PRIMARY KEY IDENTITY(1,1),
+    Numero INT NOT NULL UNIQUE,
+    ClienteId INT NOT NULL,
+    FOREIGN KEY (ClienteId) REFERENCES Cliente(Id)
+);
